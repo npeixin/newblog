@@ -23,6 +23,9 @@ blogdown::new_site()
 #create a website with the Hugo Wowchemy “starter-academic” project
 new_site(theme = "wowchemy/starter-academic")
 new_site(theme = "nanxstats/hugo-tanka")
+new_site(theme = "kishaningithub/hugo-creative-portfolio-theme")
+
+kishaningithub/hugo-creative-portfolio-theme
 
 blogdown::hugo_build()
 
