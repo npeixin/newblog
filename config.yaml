@@ -1,4 +1,4 @@
-baseurl: https://example.org/
+baseurl: px-study.netlify.app
 title: Creative portfolio
 theme: hugo-creative-portfolio-theme
 languageCode: en-us
