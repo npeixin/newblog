@@ -62,10 +62,6 @@ usethis::use_github()
 
 
 
-
-
-
-
 if (!requireNamespace("remotes")) install.packages("remotes")
 remotes::install_github("rstudio/blogdown")
 
