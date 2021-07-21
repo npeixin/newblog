@@ -1,13 +1,13 @@
 ---
-aliases:
-- about-us
-- about-hugo
-- contact
+title: 关于我
 author: px
-date: "2021-07-21"
-description: 关于 Peixin
-title: About
+date: '2021-07-12'
+slug: aboutme
+categories: []
+tags:
+  - about
 ---
+<!--more-->
 
 聂 px
 

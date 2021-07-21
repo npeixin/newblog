@@ -4,7 +4,9 @@ author: px
 date: '2021-07-15'
 slug: []
 categories: []
-tags: []
+tags: 
+  - LMM
+  - statistics
 meta_img: images/survey01.png
 description: "—— 线性混合模型（LMM）在心理学研究中的最佳食用方法"
 ---
