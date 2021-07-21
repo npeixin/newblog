@@ -1,6 +1,6 @@
 baseURL: https://example.com
 languageCode: en-us
-title: Hugo
+title: Peixin 的杂七杂八
 theme: "hugo-theme-mini"
 
 # for exampleSite only, you may need to delete the line: `themesDir: ../../` 
@@ -32,9 +32,9 @@ social:
 # Site parameters
 params:
   # Site Author
-  author: Author
+  author: Peixin
   # Author biography
-  bio: Software Engineer
+  bio: A Ph.D. student studying University of Helsinki, Finland
   # Site Description, used in HTML meat
   description: My Blog
   enableRSS: true
