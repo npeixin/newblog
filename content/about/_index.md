@@ -9,9 +9,9 @@ description: 关于 Peixin
 title: About
 ---
 
-聂 px
+聂px
 
-生活在芬兰
+坐标芬兰
 
 赫尔辛基大学，博士在读 
 
