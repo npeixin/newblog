@@ -1,32 +1,23 @@
 ---
-title: "regression model"
+title: Hierarchical regression model
 author: px
 date: '2021-08-03'
 slug: []
 categories: []
+tags:
+  - statistics
 meta_img: images/survey01.png
-description: "—— 线性混合模型（LMM）在心理学研究中的最佳食用方法"
+description: "Hierarchical regression model 和 hierarchical linear model 的区别"
 ---
 
 <script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
 
 
-<p>—— 线性混合模型（LMM）在心理学研究中的最佳食用方法</p>
-<div id="写在前面" class="section level3">
-<h3>写在前面</h3>
-<p>从2019年读博开始接触LMM，到现在两年了，统计分析时也用过，SPSS里用过，R里也用过，但每次都有用“我认识它，它不认识我”的可远观不可亵玩焉的若即若离之感。为什么呢？</p>
-<p>要说不认识吧，其实它的统计模型的含义、随机截距、随机斜率的意义、公式，我也算是大致了解，也看了不少文献和书籍资料；要是说认识吧，可为什么每次应用的时候，要么就对选择的模型没有信心，要么对要报告的方法无从下手，要么就是对要呈现的统计值云里雾里不知何从选择？！但其实说老实话，除了最开始学习的时候啃过统计书里的一些相关章节，后面在应用的时候对于一些讲方法的文献，我一般都急于求成想赶紧写好结果，直接跳过引言，只看代码行附近，基本静不下心来按部就班地仔细阅读过一篇文章。</p>
-<p>所以呀，幸亏现在放假了！正值春风和煦，鸟语花香的好时节，多适合静下心来学学统计！（不是…… 跑偏了同学，现在是夏天。= =）</p>
-<p>于是，我就遇到了Lotte Meteyard &amp; Robert A.I. Davies 两位同志在Journal of Memory and Language发表的一篇（我认为的）神级总结<a href="https://doi.org/10.1016/j.jml.2020.104092">文章</a>！</p>
-<p>如果你也跟我一样在使用LMM的时候遇到了一些问题，那么这篇文章就在用全身力气告诉你：来吧孩子，你不是一个人！</p>
+<p>Hierarchical regression model 和 hierarchical linear model 的区别</p>
+<p><strong>Hierarchical linear model 是nested data</strong>（一个nest里边的数据可能不是完全互相独立的）。比如比较不同年级的数学能力的发展，每个年级内又有不同的班级。 由于常规的linear model 假设所有的数据应该是互相独立的，因此我们需要一种不同的分析方法。
+这个model属于mixed effect model，既包括random effect，又包括 fixed effect。</p>
+<p>而<strong>hierarchical regression model的重点在于各个预测变量</strong>的选择、进入次序、移除的过程和步骤，在不同的过程中看模型的拟合度，从而找到一个合适这个数据的最优解（有哪些预测的因素，以及所占的比重）。Covariate 一般在第一步加进去，然后随后加入重点研究的变量，看这个因素被添加后整个模型predictive power 的变化。
+Hierarchical regression model 还可根据预测变量进入和移除的不同方法，分为forward，backward和 stepwise regression。</p>
+<p>所以hierarchical regression model也不必要是nested data，而是在潜在变量比较多的时候用于选择出最有影响的预测变量。</p>
 <hr />
-</div>
-<div id="说正经的" class="section level3">
-<h3>说正经的</h3>
-<p>先扔一张图</p>
-<p><img src="/posts/2021-07-15-lmm-paper/LMM_paper_files/survey01.png" style="width:80.0%" /></p>
-<p>这些是报告的challenge，都是作者在调查中总结大家遇到的问题。这里的“大家”指的是，作者方便取样的163名研究者，其中包括9.2%的教授，11.04%的高级讲师/助理教授，24.54%的讲师/助理教授，26.38%的博士后，24.54%的博士生，1.23%的硕士生。[好的，原来大家都会遇到问题，那我就放心啦（不是）。]</p>
-<p>在分析了对研究者的有关LMM使用的问卷数据，并且系统总结了400篇应用了LMM的文章后，作者罗列目前LMM应用的现状、问题，最后提出了LMM的最佳食用方法。下面的脑图是我整理的我比较感兴趣的地方，详细内容可以下载<a href="https://doi.org/10.1016/j.jml.2020.104092">原文</a>阅读哦。</p>
-<p><a href="/posts/2021-07-15-lmm-paper/LMM_paper_files/The%20Best%20Practice%20of%20LMM.png"><img src="/posts/2021-07-15-lmm-paper/LMM_paper_files/The%20Best%20Practice%20of%20LMM.png" style="width:100.0%" /></a>
-(点击图片放大)</p>
-</div>
+<p>~~ 还是要每天写点儿东西呀~~</p>

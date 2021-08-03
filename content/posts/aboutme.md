@@ -6,6 +6,7 @@ slug: aboutme
 categories: []
 tags:
   - about
+description: " "
 ---
 <!--more-->
 
