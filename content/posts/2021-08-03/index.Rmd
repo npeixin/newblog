@@ -1,5 +1,5 @@
 ---
-title: Hierarchical regression model 和 hierarchical linear model 的区别
+title: Hierarchical regression model
 author: px
 date: '2021-08-03'
 slug: '2021-08-03'
@@ -7,7 +7,9 @@ categories: []
 tags:
   - statistics
 ---
-Hierarchical regression model 和 hierarchical linear model 的区别
+
+
+#Hierarchical regression model 和 hierarchical linear model 的区别
 
 <!--more-->
 

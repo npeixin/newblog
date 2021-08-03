@@ -1,0 +1,22 @@
+---
+title: Hierarchical regression model
+author: px
+date: '2021-08-03'
+slug: '2021-08-03'
+categories: []
+tags:
+  - statistics
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+
+<p>#Hierarchical regression model 和 hierarchical linear model 的区别</p>
+<!--more-->
+<p><strong>Hierarchical linear model 是nested data</strong>（一个nest里边的数据可能不是完全互相独立的）。比如比较不同年级的数学能力的发展，每个年级内又有不同的班级。 由于常规的linear model 假设所有的数据应该是互相独立的，因此我们需要一种不同的分析方法。
+这个model属于mixed effect model，既包括random effect，又包括 fixed effect。</p>
+<p>而<strong>hierarchical regression model的重点在于各个预测变量</strong>的选择、进入次序、移除的过程和步骤，在不同的过程中看模型的拟合度，从而找到一个合适这个数据的最优解（有哪些预测的因素，以及所占的比重）。Covariate 一般在第一步加进去，然后随后加入重点研究的变量，看这个因素被添加后整个模型predictive power 的变化。
+Hierarchical regression model 还可根据预测变量进入和移除的不同方法，分为forward，backward和 stepwise regression。</p>
+<p>所以hierarchical regression model也不必要是nested data，而是在潜在变量比较多的时候用于选择出最有影响的预测变量。</p>
+<hr />
+<p>~~ 还是要每天写点儿东西呀~~</p>
