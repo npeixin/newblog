@@ -1,12 +1,12 @@
 ---
-title: 关于我
+title: 关于 Peixin
 author: px
 date: '2021-07-12'
 slug: aboutme
 categories: []
 tags:
   - about
-description: " "
+description: "也就是我，嗯 :)"
 ---
 <!--more-->
 
