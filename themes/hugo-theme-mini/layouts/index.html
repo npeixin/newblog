@@ -14,7 +14,20 @@
             <div class="date">{{ $date }}</div>
           </div>
 
-          <div class="summary">{{ $summary | plainify | htmlUnescape }}</div>
+          <div class="summary">
+              <!--{{ $summary | plainify | htmlUnescape }}-->
+              {{ with .Description }}
+                        {{ $.Scratch.Set "summary" (markdownify .) }}
+                      {{ else }}
+                        {{ $.Scratch.Set "summary"
+                          ((delimit (findRE "(<p.*?>.*?</p>\\s*)+" .Content) "[&hellip;] ") |
+                          plainify |
+                          truncate (default 200 .Site.Params.summary_length)
+                          (default " &hellip;" .Site.Params.text.truncated ) |
+                          replaceRE "&amp;" "&" | safeHTML) }}
+                      {{ end }}
+                      {{ $.Scratch.Get "summary" }}
+              </div>
 
         </section>
     {{ end }}

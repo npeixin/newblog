@@ -56,3 +56,7 @@ description: "—— 线性混合模型（LMM）在心理学研究中的最佳�
 
 [![](/posts/2021-07-15-lmm-paper/LMM_paper_files/The Best Practice of LMM.png){width=100%}](/posts/2021-07-15-lmm-paper/LMM_paper_files/The Best Practice of LMM.png)
 (点击图片放大)
+
+
+
+(未完)

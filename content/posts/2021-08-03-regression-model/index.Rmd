@@ -2,16 +2,16 @@
 title: Hierarchical regression model
 author: px
 date: '2021-08-03'
-slug: '2021-08-03'
+slug: []
 categories: []
 tags:
   - statistics
+meta_img: images/survey01.png
+description: "Hierarchical regression model 和 hierarchical linear model 的区别"
 ---
 
+Hierarchical regression model 和 hierarchical linear model 的区别
 
-#Hierarchical regression model 和 hierarchical linear model 的区别
-
-<!--more-->
 
 **Hierarchical linear model 是nested data**（一个nest里边的数据可能不是完全互相独立的）。比如比较不同年级的数学能力的发展，每个年级内又有不同的班级。 由于常规的linear model 假设所有的数据应该是互相独立的，因此我们需要一种不同的分析方法。
 这个model属于mixed effect model，既包括random effect，又包括 fixed effect。
@@ -24,4 +24,3 @@ Hierarchical regression model 还可根据预测变量进入和移除的不同�
 
 -----------
 ~~ 还是要每天写点儿东西呀~~
-
