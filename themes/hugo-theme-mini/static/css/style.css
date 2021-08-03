@@ -1,8 +1,8 @@
 body {
   line-height: 1;
-  font: normal 16px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: normal 15px/1.6em 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #404040;
-  line-height: 2;
+  line-height: 1.8;
   letter-spacing: 0.008em;
 }
 
@@ -346,7 +346,7 @@ nav.navigation a.button {
   text-align: center;
   color: #8c8c8c;
   margin-top: 18px;
-  font-size: 24px;
+  font-size: 14px;
 }
 #single .tip .split {
   margin: 0 4px;
