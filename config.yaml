@@ -54,7 +54,7 @@ params:
   olderPosts: '' # Default: Older Posts
   newerPosts: '' # Default: Newer Posts
   copyright: '' # Default: © Copyright 2021 ❤️ author
-  title404: '555 找不到也页面啦' # Default: 404 - Page Not Found
+  title404: '555 找不到页面啦' # Default: 404 - Page Not Found
   subtitle404: '有问题可以直接联系px哦' # Default: The content you're looking for doesn't seem to exist.
   readMore: '' # Default: Read More
 
