@@ -14,7 +14,7 @@ description: "Hierarchical regression model 和 hierarchical linear model 的区
 
 [1. Hierarchical regression model 和 hierarchical linear model 的区别](#Hierarchical_diff)
 
-[2. 什么时候用hierarchical regression model](#wehentouse)
+[2. 什么时候用hierarchical regression model](#whentouse)
 
 
 
