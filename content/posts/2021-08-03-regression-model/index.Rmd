@@ -50,7 +50,7 @@ Hierarchical regression model 还可根据预测变量进入和移除的不同�
 （https://www.investopedia.com/terms/m/mlr.asp）
 
 完整的假设及判定方法：
-![](/posts/2021-08-03-regression-model/index_files/ass_for_multiregression.jpg){width=80%}
+![](index_files/ass_for_multiregression.jpg){width=80%}
 (加载失败请点[这里](index_files/ass_for_multiregression.jpg))
 
 ### **How to make the analysis**
