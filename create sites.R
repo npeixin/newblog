@@ -16,7 +16,7 @@ package_version("rmarkdown")
 library(rmarkdown)
 .libPaths()
 
-
+library(knitr)
 #create a website
 blogdown::new_site()
 
