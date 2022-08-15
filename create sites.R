@@ -17,6 +17,9 @@ library(rmarkdown)
 .libPaths()
 
 library(knitr)
+
+
+
 #create a website
 blogdown::new_site()
 
