@@ -7,9 +7,9 @@
         <img class="avatar" alt="avatar" src="{{ "/images/px.png" | relURL }}" />
     {{ end }}
 
-    <h1>{{ .Site.Title }}</h1>
+    <h1><font size = "5">{{ .Site.Title }}</font></h1>
     
     {{ with .Site.Params.Bio }}
-      <h2>{{ . | markdownify }}</h2>
+      <h4><font size = "3" color = "grey"><i>{{ . | markdownify }}</i></font></h4>
     {{ end }}
 </header>
