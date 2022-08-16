@@ -5,18 +5,18 @@
     {{ $pages := .Site.RegularPages }}
     {{ $paginator := .Paginate ($pages) }}
     {{ range $paginator.Pages }}
-        {{ $title := .Title }}
+       {{ $title := .Title }}
         {{ $summary := .Summary }}
         {{ $date := dateFormat "Jan 2, 2006" .Date }}
-        <section class="item">
+ <!--        <section class="item">
           <div>
             <h1 class="title"><a href='{{ .RelPermalink }}'>{{ $title }}</a></h1>   
             <div class="date">{{ $date }}</div>
           </div>
 
-          <div class="summary">
+  <!--         <div class="summary">-->
               <!--{{ $summary | plainify | htmlUnescape }}-->
-              {{ with .Description }}
+  <!--              {{ with .Description }}
                         {{ $.Scratch.Set "summary" (markdownify .) }}
                       {{ else }}
                         {{ $.Scratch.Set "summary"
@@ -27,9 +27,9 @@
                           replaceRE "&amp;" "&" | safeHTML) }}
                       {{ end }}
                       {{ $.Scratch.Get "summary" }}
-              </div>
-
-        </section>
+ 
+             </div>
+        </section>-->
     {{ end }}
 
     {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
@@ -49,7 +49,7 @@
                   </a>
               </span>
           {{ end }}
-        </div>
+        </div>  
     {{ end }}
 
 

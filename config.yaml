@@ -39,9 +39,9 @@ params:
   bio:  吾生也有涯，而知也无涯 
   # Site Description, used in HTML meat
   description: My Blog
-  enableRSS: true
+  enableRSS: false
   # To enable comments, you may need to set `disqusShortname`
-  enableComments: true
+  enableComments: false
   # To enable comments, you may need to set `googleAnalytics`
   enableGoogleAnalytics: true
 
@@ -50,7 +50,7 @@ params:
   about: '关于我' # Default: About
   archive: '文章列表' # Default: Archive
   tags: '按标签' # Default: Tags
-  #subscribe: '' # Default: Subscribe
+  subscribe: '' # Default: Subscribe
   olderPosts: '' # Default: Older Posts
   newerPosts: '' # Default: Newer Posts
   copyright: '' # Default: © Copyright 2021 ❤️ author

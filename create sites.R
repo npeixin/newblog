@@ -5,6 +5,11 @@ devtools::install_github("rstudio/blogdown")
 remotes::install_github("rstudio/blogdown")
 library(blogdown)
 library(Rcpp)
+library(rmarkdown)
+
+library(knitr)
+
+
 
 blogdown::install_hugo("0.84.4")
 
@@ -16,9 +21,8 @@ package_version("rmarkdown")
 library(rmarkdown)
 .libPaths()
 
-library(knitr)
-
-
+library(shiny)
+install.packages("shiny")
 
 #create a website
 blogdown::new_site()
