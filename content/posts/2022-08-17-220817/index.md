@@ -10,13 +10,13 @@ tags:
 
 ### 今天读文献了吗 -- 220817
 
-##### 1. Why are there different languages? the role of adaptation in linguistic diversity
+#### 1. Why are there different languages? the role of adaptation in linguistic diversity
 
 (Lupyan & Dale, *Trends in Cognitive Sciences*, 2016) [link](https://www.sciencedirect.com/science/article/pii/S1364661316301012)
 
 - reflect adaptations to different environments? or gradual accumulation of random changes?
 
-##### 2. The impact of musical training and tone language experience on talker identification
+#### 2. The impact of musical training and tone language experience on talker identification
 
 (Xie & Myers, 2015) [link](https://asa.scitation.org/doi/pdf/10.1121/1.4904699)
 
