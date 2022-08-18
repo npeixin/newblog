@@ -3,13 +3,20 @@ install.packages("Rcpp")
 devtools::install_github("rstudio/blogdown")
 
 remotes::install_github("rstudio/blogdown")
+
+###### regular run
+
+
 library(blogdown)
 library(Rcpp)
 library(rmarkdown)
 
 library(knitr)
 
+blogdown::serve_site() # start a local preview
 
+
+######## 
 
 blogdown::install_hugo("0.84.4")
 
