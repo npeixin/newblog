@@ -29,7 +29,7 @@ tags:
 
 #### 2. Book review: The gifted language learner: A case of nature or nurture? By Alene Moyer : Cambridge University Press, 2021.
 
-(Zare & Derakhshan, 2022, *British Journal of Psychology*)
+(Zare & Derakhshan, 2022, *British Journal of Psychology*)[link](https://doi.org/10.1111/bjop.12570)
 
 - language acquisition: innate capacity or life experience?
 - summaries the book:
