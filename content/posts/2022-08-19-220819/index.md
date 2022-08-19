@@ -10,8 +10,8 @@ tags:
 
 ### 今天读文献了吗 -- 220819
 
-#### 1. [Argument-based approach to validity: developing a living document and incorporating preregistration](https://psyarxiv.com/t8h5g) 
-(Gerasimova, 2022, PsyArXiv)  #preregistration
+#### [1. Argument-based approach to validity: developing a living document and incorporating preregistration](https://psyarxiv.com/t8h5g) 
+(Gerasimova, 2022, PsyArXiv)  `#preregistration`
 
 - living document: up-to-date summary of the validity argument
 - two types of preregistration:
