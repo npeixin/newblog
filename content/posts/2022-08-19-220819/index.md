@@ -6,6 +6,7 @@ slug: '220819'
 categories: []
 tags:
   - reading
+  - preregistration
 ---
 
 ### 今天读文献了吗 -- 220819
